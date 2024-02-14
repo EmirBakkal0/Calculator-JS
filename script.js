@@ -34,7 +34,20 @@ const operate = (number,operator,number2) =>{
 const display =document.querySelector("#display")
 const clear = document.querySelector("#clear");
 
+
+let displayText=""
+
 clear.onclick = () => {
-    display.innerHTML=""
+    displayText=""
+    display.innerHTML=displayText;
+    
 }
+
+const numbers= document.querySelectorAll(".number")
+numbers.forEach((num) => {
+    num.addEventListener('click', () => {
+        displayText=displayText.concat(num.id);
+        display.innerHTML=displayText;
+    });
+});
 
