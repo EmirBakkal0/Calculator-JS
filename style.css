@@ -1,30 +1,45 @@
+@font-face {
+    font-family: "Eurostile";
+    font-weight: bold;
+    src: local("Eurostile"), url("font/eurostile.ttf") format("opentype"); /* non-IE */
+}
 body{
     background-color: #0a175b;
     box-sizing: border-box;
     color: white;
 }
 
+h1 {
+    padding: 10px;
+    font-size: xxx-large;
+    font-family: 'Eurostile', sans-serif;
+}
+
 
 .calc-display{
-    width: 180px;
-    height: 25px;
-    margin: 10px 10px 0px;
+    width: 340px;
+    height: 60px;
+    margin: 40px 30px 0px;
+    border: 2px solid #050505;
+
+
     background-color: #80600b;
     text-align: end;
     color: ghostwhite;
+    font-size: xxx-large;
 }
 
 
 .calc-btns{
     flex-wrap: wrap;
-    width: 180px;
+    width: 360px;
     /*height: 500px;*/
-    margin: 30px 14px;
+    margin: 40px 35px;
 }
 
 .calc{
     border: thin solid #050505;
-    width: 200px;
+    width: 400px;
     background-color: #0e102a;
 }
 
@@ -36,7 +51,9 @@ body{
 }
 
 button {
-    width: 40px;
+    width: 80px;
+    height: 80px;
+    font-size: xxx-large;
     background: #050505;
     background-image: -webkit-linear-gradient(top, #050505, #2980b9);
     background-image: -moz-linear-gradient(top, #050505, #2980b9);
@@ -47,11 +64,12 @@ button {
     /*-moz-border-radius: 7;*/
     border-radius: 7px;
     border-width: thin;
-    font-family: Arial;
+    font-family: Arial, serif;
     color: #ffffff;
-    font-size: 22px;
+    /*font-size: 22px;*/
     /*padding: 10px 20px 10px 20px;*/
     text-decoration: none;
+    margin: 1px 0px;
 }
 button:hover {
     background: #263036;
@@ -61,4 +79,12 @@ button:hover {
     background-image: -o-linear-gradient(top, #263036, #3498db);
     background-image: linear-gradient(to bottom, #263036, #3498db);
     text-decoration: none;
+}
+
+#brand{
+    padding-top: 10px;
+    padding-left: 10px;
+    font-family: 'Eurostile', sans-serif;
+    font-weight: bolder;
+    font-size: xx-large;
 }
