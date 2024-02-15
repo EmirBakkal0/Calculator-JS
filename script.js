@@ -42,6 +42,13 @@ const operate = () =>{
         });
     });
 
+    const delBtn=document.querySelector("#delete");
+    delBtn.onclick=() =>{
+        displayText=displayText.slice(0,displayText.length-1)  ;
+        display.innerHTML=displayText;
+    }
+
+
 
     const equalBtn=document.querySelector("#equals");
 
