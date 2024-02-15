@@ -19,7 +19,7 @@ h1 {
 .calc-display{
     width: 340px;
     height: 60px;
-    margin: 40px 30px 0px;
+    margin: 30px 30px 0px;
     border: 2px solid #050505;
 
 
@@ -55,14 +55,14 @@ button {
     height: 80px;
     font-size: xxx-large;
     background: #050505;
-    background-image: -webkit-linear-gradient(top, #050505, #2980b9);
-    background-image: -moz-linear-gradient(top, #050505, #2980b9);
-    background-image: -ms-linear-gradient(top, #050505, #2980b9);
-    background-image: -o-linear-gradient(top, #050505, #2980b9);
+    /*background-image: -webkit-linear-gradient(top, #050505, #2980b9);*/
+    /*background-image: -moz-linear-gradient(top, #050505, #2980b9);*/
+    /*background-image: -ms-linear-gradient(top, #050505, #2980b9);*/
+    /*background-image: -o-linear-gradient(top, #050505, #2980b9);*/
     background-image: linear-gradient(to bottom, #050505, #2980b9);
     /*-webkit-border-radius: 7;*/
     /*-moz-border-radius: 7;*/
-    border-radius: 7px;
+    border-radius: 15px;
     border-width: thin;
     font-family: Arial, serif;
     color: #ffffff;
@@ -73,10 +73,10 @@ button {
 }
 button:hover {
     background: #263036;
-    background-image: -webkit-linear-gradient(top, #263036, #3498db);
-    background-image: -moz-linear-gradient(top, #263036, #3498db);
-    background-image: -ms-linear-gradient(top, #263036, #3498db);
-    background-image: -o-linear-gradient(top, #263036, #3498db);
+    /*background-image: -webkit-linear-gradient(top, #263036, #3498db);*/
+    /*background-image: -moz-linear-gradient(top, #263036, #3498db);*/
+    /*background-image: -ms-linear-gradient(top, #263036, #3498db);*/
+    /*background-image: -o-linear-gradient(top, #263036, #3498db);*/
     background-image: linear-gradient(to bottom, #263036, #3498db);
     text-decoration: none;
 }
@@ -87,4 +87,15 @@ button:hover {
     font-family: 'Eurostile', sans-serif;
     font-weight: bolder;
     font-size: xx-large;
+}
+
+.zero {
+    width: 165px;
+}
+
+.not-num{
+    background-image: linear-gradient(to bottom, #050505, red);
+}
+.not-num:hover {
+    background-image: linear-gradient(to bottom, #263036, orangered);
 }
