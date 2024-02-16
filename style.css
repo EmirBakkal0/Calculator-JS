@@ -31,7 +31,7 @@ h1 {
 
 
 .calc-btns{
-    flex-wrap: wrap;
+    flex-wrap: nowrap;
     width: 335px;
     /*height: 500px;*/
     margin: 40px 0 40px 35px;
