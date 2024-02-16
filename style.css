@@ -19,7 +19,7 @@ h1 {
 .calc-display{
     width: 340px;
     height: 60px;
-    margin: 30px 30px 0px;
+    margin: 30px 30px 30px;
     border: 2px solid #050505;
 
 
@@ -32,15 +32,20 @@ h1 {
 
 .calc-btns{
     flex-wrap: nowrap;
+
     width: 335px;
-    /*height: 500px;*/
-    margin: 40px 0 40px 35px;
+    height: 450px;
+    /*margin: 40px 0 40px 35px;*/
 }
 
 .calc{
     border: thin solid #050505;
     width: 400px;
     background-color: #0e102a;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
 }
 
 .center{
