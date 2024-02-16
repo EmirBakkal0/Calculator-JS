@@ -1,7 +1,7 @@
 @font-face {
     font-family: "Eurostile";
     font-weight: bold;
-    src: local("Eurostile"), url("font/eurostile.ttf") format("opentype"); /* non-IE */
+    src: local("Eurostile"), url("font/eurostile.TTF") format("opentype"); /* non-IE */
 }
 body{
     background-color: #0a175b;
@@ -32,9 +32,9 @@ h1 {
 
 .calc-btns{
     flex-wrap: wrap;
-    width: 360px;
+    width: 335px;
     /*height: 500px;*/
-    margin: 40px 35px;
+    margin: 40px 0 40px 35px;
 }
 
 .calc{
